@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Pracovníků</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigační panel -->
+    <div class="navbar">
+        <div class="logo">
+            <h1>Portfolio</h1>
+        </div>
+        <div class="nav-links">
+            <a href="index.html" data-translate="home">Domů</a>
+            <a href="portfolio.html" data-translate="portfolio">Portfolio</a>
+            <a href="projects.html" data-translate="projects">Projekty</a>
+            <a href="finance.html" data-translate="financialOverview">Finanční Přehled</a>
+            <a href="admin.html" data-translate="adminPanel">Admin Panel</a>
+            <a href="settings.html" data-translate="settings">Nastavení</a>
+        </div>
+    </div>
+
+    <!-- Sekce hodnocení a zpětné vazby -->
+    <div class="feedback-section">
+        <h3>Hodnocení a Zpětná Vazba</h3>
+        <ul id="feedback-list">
+            <!-- Zde budou zobrazena hodnocení a komentáře -->
+        </ul>
+        <button onclick="addFeedback()">Přidat Zpětnou Vazbu</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
